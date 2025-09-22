@@ -1,0 +1,28 @@
+main,
+body {
+  display: flex;
+}
+
+body {
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+main {
+  flex-direction: row;
+  border: 1px solid green;
+  flex: auto;
+}
+
+article,
+aside {
+  overflow-y: auto;
+}
+
+article {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+}
