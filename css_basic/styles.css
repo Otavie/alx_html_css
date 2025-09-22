@@ -26,3 +26,8 @@ article {
 aside {
   flex: 1;
 }
+
+img {
+  max-width: 100px;
+  height: auto;
+}
